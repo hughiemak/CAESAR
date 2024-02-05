@@ -23,9 +23,9 @@ def generate_experiment_config(args):
             'env_cls': GridWorld
         }
     elif args.env == 'FrozenLake':
-        if args.exp_name == "randomly_heterogenous": # generate two random maps
+        if args.exp_name == "randomly_heterogeneous": # generate two random maps
             map1, map2 = generate_two_random_maps(size=4)
-        elif args.exp_name == "strongly_heterogeous":
+        elif args.exp_name == "strongly_heterogeneous":
             map1, map2 = generate_two_opposing_maps(size=4)
         elif args.exp_name == "homogeneous":
             map1, map2 = generate_two_identical_maps(size=4)

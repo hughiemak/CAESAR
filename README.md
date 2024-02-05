@@ -12,4 +12,4 @@ To run a frozenlake experiment,
 ```
 python main.py --env FrozenLake --pdir [EXPERIMENT_DIRECTORY_NAME] --exp_name [EXPERIMENT_NAME] --seed [SEED]
 ```
-where `[EXPERIMENT_NAME]` can be `homogeneous`, `randomly_heterogenous`, or `strongly_heterogenous`. The experiments in the paper can be reproduced by setting `[SEED] = 0, 1, ..., 29`.
+where `[EXPERIMENT_NAME]` can be `homogeneous`, `randomly_heterogeneous`, or `strongly_heterogeneous`. The experiments in the paper can be reproduced by setting `[SEED] = 0, 1, ..., 29`.
