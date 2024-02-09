@@ -14,4 +14,4 @@ python main.py --env FrozenLake --pdir [EXPERIMENT_DIRECTORY_NAME] --exp_name [E
 ```
 where `[EXPERIMENT_NAME]` can be `homogeneous`, `randomly_heterogeneous`, or `strongly_heterogeneous`. The experiments in the paper can be reproduced by setting `[SEED] = 0, 1, ..., 29`.
 
-All plots in the paper are availble in the notebook `notebook/plot.ipynb`.
+All plots in the paper are available in the notebook `notebook/plot.ipynb`.
